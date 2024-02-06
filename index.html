@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto Punto V1.0</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Producto Punto</h1>
+        <p>Calcula el producto punto entre dos vectores</p>
+    </header>
+    <main>
+        <fieldset>
+            <p class="subt">Primer vector:</p>
+            <span>a =
+                <input type="number" value="0" id="valora0">
+                ;
+                <input type="number" value="0" id="valora1">
+                ;
+                <input type="number" value="0" id="valora2">
+                
+            </span>
+        </fieldset>
+        <fieldset>
+            <p class="subt">Segundo vector:</p>
+            <span>b =
+                <input type="number" value="0" id="valorb0">
+                ;
+                <input type="number" value="0" id="valorb1">
+                ;
+                <input type="number" value="0" id="valorb2">
+            </span>
+        </fieldset>
+        <fieldset><input type="submit" value="Calcular" class="enviar" onclick="calcuarProductoPunto()"></fieldset>
+        
+        <fieldset>
+            <p class="subt">Resutado</p>
+            <h2>a * b = 0</h2>
+
+        </fieldset>
+    </main>
+    <script src="forulas.js"></script>
+</body>
+</html>
